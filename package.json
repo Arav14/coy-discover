@@ -1,0 +1,22 @@
+{
+  "name": "coy-discover",
+  "version": "1.0.0",
+  "description": "Swipe-based Discover tab for Coy (SDE intern assignment)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test test/*.test.js",
+    "seed": "node scripts/reset-db.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^11.18.2",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "private": true,
+  "type": "module"
+}
